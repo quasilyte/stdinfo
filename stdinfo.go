@@ -26,5 +26,5 @@ type Package struct {
 var PathByName = generatedPathByName
 
 // PackagesList is a list of std packages information.
-// It's sorted by a package path.
+// It's sorted by a package name.
 var PackagesList = generatedPackagesList

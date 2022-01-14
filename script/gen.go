@@ -65,7 +65,7 @@ func main() {
 		return tmplData.PathByName[i].Freq > tmplData.PathByName[j].Freq
 	})
 	sort.Slice(tmplData.Packages, func(i, j int) bool {
-		return tmplData.Packages[i].Path < tmplData.Packages[j].Path
+		return tmplData.Packages[i].Name < tmplData.Packages[j].Name
 	})
 
 	var outBuf bytes.Buffer
